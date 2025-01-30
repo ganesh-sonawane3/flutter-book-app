@@ -1,6 +1,6 @@
 import 'dart:convert';
 import 'package:flutter/services.dart';
-import 'package:myapp/data/user_model.dart';
+import 'package:myapp/features/auth/model/user_model.dart';
 
 
 class AuthService {

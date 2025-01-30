@@ -3,7 +3,7 @@ import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:myapp/features/auth/signup/bloc/signup_bloc.dart';
 import 'package:myapp/features/auth/signup/bloc/signup_event.dart';
 import 'package:myapp/features/auth/signup/bloc/signup_state.dart';
-import 'package:myapp/features/auth/ui/login.dart';
+import 'package:myapp/features/auth/login/ui/login.dart';
 import 'package:myapp/repository/user_repository.dart';
 import 'package:myapp/resources/colors.dart';
 import 'package:myapp/widgets/app_button.dart';

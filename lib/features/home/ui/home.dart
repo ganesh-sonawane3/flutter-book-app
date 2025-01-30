@@ -22,7 +22,7 @@ class _HomeState extends State<Home> {
   List<ProductDataModel> _filteredProducts = [];
   final List<Map<String, String>> imagesList = [
     {
-      'imageUrl': 'assets/images/img1.png',
+      'imageUrl': 'assets/images/image1.png',
       'text1': 'First Image - Title',
       'text2': 'First Image - Description',
     },

@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:myapp/features/auth/ui/login.dart';
+import 'package:myapp/features/auth/login/ui/login.dart';
+import 'package:myapp/features/home/ui/home.dart';
+import 'package:myapp/features/homePage.dart';
 import 'package:myapp/resources/colors.dart';
 import 'package:myapp/widgets/app_button.dart';
 
@@ -50,7 +52,12 @@ class _CartPageState extends State<CartPage> {
       appBar: AppBar(
         leading: IconButton(
           icon: const Icon(Icons.arrow_back, color: Colors.black),
-          onPressed: () => Navigator.pop(context),
+  onPressed: () => Navigator.pushAndRemoveUntil(
+  context,
+  MaterialPageRoute(builder: (context) => MyHome()),
+  (route) => false, 
+
+),
         ),
         title: const Text(
           "My Bag",
@@ -243,10 +250,7 @@ class _CartPageState extends State<CartPage> {
                   AppButton(
                     borderRadius: 48,
                     onPressed: () {
-                      Navigator.push(
-                          context,
-                          MaterialPageRoute(
-                              builder: (context) => const LoginPage()));
+                  
                     },
                     text: 'Pay Now',
                   ),

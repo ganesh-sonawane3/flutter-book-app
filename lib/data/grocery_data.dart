@@ -3,7 +3,7 @@ class GroceryData {
     {
       'id': '1',
       'name': 'The Kite Runner',
-      'description': 'Fresh bananas from Ecuador',
+      'description': '',
       'price': 0.49,
       'imageUrl': 'assets/images/img1.png',
       'moreinfo':
@@ -12,27 +12,27 @@ class GroceryData {
     {
       'id': '2',
       'name': 'The Kite Runner',
-      'description': 'Organic, locally grown apples',
+      'description': '',
       'price': 1.99,
-      'imageUrl': 'assets/images/image.png',
+      'imageUrl': 'assets/images/img2.png',
       'moreinfo':
           'Apples are nutritious. Apples may be good for weight loss. apples may be good for your heart. As part of a healtful and varied diet.',
     },
     {
       'id': '3',
       'name': 'The Kite Runner',
-      'description': 'Brown Bread, Tasty',
+      'description': '',
       'price': 2.49,
-      'imageUrl': 'https://thumbs.dreamstime.com/b/bread-cut-14027607.jpg',
+      'imageUrl': 'assets/images/img3.png',
       'moreinfo': 'info'
     },
     {
       'id': '4',
       'name': 'The Kite Runner',
-      'description': 'Farm-fresh brown eggs',
+      'description': '',
       'price': 3.99,
       'imageUrl':
-          'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ9ufrjTIZGodye202hykAd1X4hrlZcIOeT1A&usqp=CAU',
+          'assets/images/img1.png',
       'moreinfo': 'info'
     },
   ];

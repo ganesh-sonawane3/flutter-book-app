@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/flutter_svg.dart';
-import 'package:myapp/features/auth/ui/intro.dart';
+import 'package:myapp/features/auth/intro.dart';
 import 'package:myapp/features/cart/ui/cart.dart';
 import 'package:myapp/features/home/ui/home.dart';
 import 'package:myapp/features/homePage.dart';

@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:myapp/features/auth/ui/login.dart';
-import 'package:myapp/features/auth/ui/signup.dart';
+import 'package:myapp/features/auth/login/ui/login.dart';
+import 'package:myapp/features/auth/signup/ui/signup.dart';
 import 'package:myapp/resources/colors.dart';
 import 'package:myapp/widgets/app_button.dart';
 
